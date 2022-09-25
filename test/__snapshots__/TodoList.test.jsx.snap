@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el TodoList Debe de mostrar el componente correctamente 1`] = `
+<div>
+  <ul>
+    <div
+      class="todo-item"
+    >
+      <li
+        aria-label="list"
+        class="todo-itemfalse"
+      >
+        lavar la losa
+      </li>
+      <button>
+        Good Bye Wish
+      </button>
+    </div>
+    <div
+      class="todo-item"
+    >
+      <li
+        aria-label="list"
+        class="todo-itemfalse"
+      >
+        sacar la basura
+      </li>
+      <button>
+        Good Bye Wish
+      </button>
+    </div>
+    <div
+      class="todo-item"
+    >
+      <li
+        aria-label="list"
+        class="todo-itemfalse"
+      >
+        planchar la ropa
+      </li>
+      <button>
+        Good Bye Wish
+      </button>
+    </div>
+  </ul>
+</div>
+`;

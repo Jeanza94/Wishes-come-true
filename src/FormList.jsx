@@ -9,7 +9,7 @@ export const FormList = () => {
     const { handleAddTodo } = useContext(FormContext)
 
     return (
-        <form onSubmit={handleButton}>
+        <form onSubmit={handleButton} aria-label="form">
             <h3>Your Wish</h3>
             <input
                 type="text"

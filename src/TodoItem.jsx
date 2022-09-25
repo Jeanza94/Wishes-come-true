@@ -9,6 +9,7 @@ export const TodoItem = ({ item }) => {
     return (
         <div className="todo-item">
             <li
+                aria-label="list"
                 className={`todo-item${item.done && "-li"}`}
                 onDoubleClick={() => handleToggleTodo(item.id)}
             >

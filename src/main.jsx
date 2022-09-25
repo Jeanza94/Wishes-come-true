@@ -11,3 +11,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>
 )
+
+if (import.meta.env.MODE === 'production' && 'serviceWorker' in navigator) {
+  console.log('Production, ServiceWorker on');
+  navigator.serviceWorker.register('sw.js');
+}

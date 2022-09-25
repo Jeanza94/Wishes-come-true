@@ -13,7 +13,6 @@ export const useTodo = () => {
         localStorage.setItem('Homework', JSON.stringify(todos));
     }, [todos])
 
-
     const handleRemoveTodo = (id) => {
         dispatch({
             type: '[TODO] remove todo',
